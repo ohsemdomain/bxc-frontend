@@ -1,3 +1,4 @@
+//src\components\blocks\Navbar.tsx
 import { Link, useLocation } from 'react-router-dom';
 import { LogOut, Menu, Twitch } from 'lucide-react';
 import {
@@ -20,8 +21,8 @@ export function Navbar() {
 
   const linkClass = (path: string) =>
     cn(
-      'px-3 py-1.5 text-sm rounded-md transition-colors font-semibold',
-      'hover:bg-gray-100/50',
+      'px-3 py-1 text-sm rounded-sm transition-colors font-semibold',
+      'hover:bg-primary-500/50',
       isActive(path)
         ? 'bg-primary/10 text-primary'
         : 'text-gray-600 hover:text-gray-900'
@@ -34,18 +35,15 @@ export function Navbar() {
   return (
     <nav
       className={cn(
-        'sticky top-0 z-50 border-b h-12',
-        'bg-white/60 backdrop-blur-md',
-        'shadow-sm shadow-gray-200/20',
-        'supports-[backdrop-filter]:bg-white/30'
+        'fixed top-0 left-0 right-0 z-50 border-b border-line-1 h-16'
       )}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex h-12 items-center justify-between">
+      <div className="container mx-auto h-full px-4">
+        <div className="flex h-full items-center justify-between">
           <div className="flex items-center gap-4">
             {/* Logo First */}
             <div className="flex items-center">
-              <Twitch className="h-5 w-5 text-primary" />
+              <Twitch className="h-6 w-6 text-primary" />
             </div>
 
             {/* Desktop Navigation */}
@@ -55,6 +53,9 @@ export function Navbar() {
               </Link>
               <Link to="/pricing" className={linkClass('/pricing')}>
                 Pricing
+              </Link>
+              <Link to="/test" className={linkClass('/test')}>
+                Test
               </Link>
             </div>
 
@@ -109,7 +110,6 @@ export function Navbar() {
             )}
           >
             <LogOut className="h-4 w-4" />
-            <span className="hidden sm:inline">Logout</span>
           </button>
         </div>
       </div>

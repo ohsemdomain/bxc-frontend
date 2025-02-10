@@ -1,13 +1,18 @@
-import { Outlet } from "react-router-dom"
+import { type FC } from 'react';
 import { Navbar } from "../blocks/Navbar"
+import Background from "../blocks/Background"
+import { Outlet } from 'react-router-dom';
 
-export function AuthLayout() {
+export const AuthLayout: FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="w-full h-full min-h-screen">
+      <Background />
       <Navbar />
-      <main className="container mx-auto px-4 py-8">
+      <main>
         <Outlet />
       </main>
     </div>
-  )
-}
+  );
+};
+
+export default AuthLayout;

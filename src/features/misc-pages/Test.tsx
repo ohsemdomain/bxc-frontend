@@ -163,7 +163,7 @@ export const columns: ColumnDef<Payment>[] = [
   },
 ]
 
-export function PricingList() {
+export function TestPage() {
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>([])
   const [columnVisibility, setColumnVisibility] = React.useState<VisibilityState>({})
@@ -191,9 +191,9 @@ export function PricingList() {
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold tracking-tight">Payments</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Test Page</h1>
         <p className="text-muted-foreground">
-          Manage your payment transactions and customer information.
+          This is a test page showing the data table component.
         </p>
       </div>
 
