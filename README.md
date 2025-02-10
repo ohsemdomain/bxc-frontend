@@ -1,3 +1,1 @@
-# bxc-frontend
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ohsemdomain/bxc-frontend)
+# Nothing to see here
