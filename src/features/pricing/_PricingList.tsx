@@ -115,7 +115,7 @@ export const PricingList = () => {
                 </div>
               </div>
 
-              <Card className="p-4 backdrop-blur-sm bg-white/30">
+              <Card className="p-4 backdrop-blur-sm bg-white/30 rounded-md">
                 <div className="flex items-center justify-between">
                   <div className="text-sm text-gray-600">
                     Showing {items.length} of {items.length} item(s)
@@ -136,7 +136,7 @@ export const PricingList = () => {
 
         {/* Right Panel - Only visible on large screens */}
         <div className="hidden lg:block w-[60%] pr-6 py-6 h-full">
-          <Card className="relative h-full bg-white/30 backdrop-blur-[1px]">
+          <Card className="relative h-full rounded-md bg-white/30 backdrop-blur-[1px]">
             <PricingPreview
               item={selectedItem}
               onEdit={handleEdit}

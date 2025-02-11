@@ -1,3 +1,4 @@
+/* index.css */
 /* Import Inter variable font */
 @import "@fontsource-variable/inter";
 
@@ -49,6 +50,9 @@
     --primary: 220 70% 50%;
     /* Changed to blue hue */
     --primary-foreground: 220 10% 98%;
+    /* Changed to blue hue */
+    --primary-50: 220 70% 90%;
+    /* ADD THIS LINE.  Adjust the lightness (90%) as needed. */
     /* Changed to blue hue */
     --secondary: 220 10% 96.1%;
     /* Changed to blue hue */

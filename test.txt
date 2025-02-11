@@ -1,0 +1,112 @@
+Can you study my behaviour, keep in mind, the 'value' i gave is not strict, it are only example, it can any value, any quantity, any amount anything! Then, rewrite back for better understandable for anyone that i want to share my problem with.
+
+=====
+
+First, i got whatsapp chat message from prospect/customer
+
+'Hi seller, i'm John Wick and I want to order box. The size is 50x30x110mm, can you give me price for 300, 500, 1000 pcs? Can i get the prcie quickly by this evening'
+
+So, what i do? I will go to supplier website, fill details and get costing price (See image provided), usually, i'll start with Standard Production TIMELINE pricing first as i order from this supplier (image provide) and for Mass Production TIMELINE, i'll do same, but i order from other various supplier.
+
+Let say in this example, Quantity: 300 Pcs Cost Total: RM271.35 Cost Unit: RM0.90. Okay, now i got it, so, how i determine what the price to give to John Wick?
+
+Here are my thinking strategy and this is most harderst part to 'download' my thinking to my staff, so i need your help to rewrite it for better understandable for anyone that i want to share my problem with.
+
+Okay, let continue, so how i determine the pricing for john Wick?
+
+I will determine what suitable Retail price base on either margin percentage add up to Cost total or just assume reasonable Retail Total price.
+
+Normally i'll start with by just assume reasonable Retail Total price. Let say i assume Retail Total: RM499, then i do calculation to get point of view either RM499 is better for John Wick see it.
+
+The reference for point of view is: Profit, Margin, Retail Unit. What i mean, if i just assume reasonable Retail Total: RM499, it will show the Profit is RM227.65, Margin is 45.62%, Retail Unit RM1.67 (All this 3 are use manual calculator that i got at my working desk!)
+
+Then i re-thinking back, are 45.62% margin is enough for my business, are RM1.67/retail unit price is reasonable for my customer, too high or too low compare to my competitor, compare to John Wick product costing. Can he absorbs and other thinking! So i decide, Retail Unit RM1.67 is quit good! 
+
+But then i look at margin, the margin is not enough, 45.62% is not good as the repetation are normally around 1-2 years later or John Wick will never repeat order. So i decide to increase the margin to 55% and do calculation again and do margin percentage add up to Cost total. 55% add up to RM271.35 is RM603. 
+
+RM603 are more enough then RM499 i assume before but it look to expensive and John Wick will not order from me, i think i go at RM59 because it good in-term of pricing psychology and look cheaper then RM603 (he..he..he)
+
+So i decide RM594 and now the margin become 54.32%, Profit 322.65. Thats still good right? So i decide for 300pcs, i will gave John wick Retail Unit RM1.95 and Retail Price RM594.
+
+So, i write chat draft message first:
+
+"
+
+::PRICING LIST::
+
+Pricing No.: BX2502001
+Dimension size: 75*75*20mm
+Die Type: Tuck End Lock
+Material: 300gsm Artcard
+Lamination: Matte film
+Print Color: 4C Full Color
+Print Side: 1 side outer
+Gluing: 1 part
+
+ONE TIME CHARGE: Block Die RM150
+*The Block Die charge is one-time only. For next orders, onlypay the printing cost as below:
+
+Mass Production TIMELINE / 33 Workdays
+300's 1.95/pc = RM594
+500's 0.00/pc = RM0.00
+1000's 0.00/pc = RM0.00
+
+Standard Production TIMELINE / 23 Workdays
+300's 0.00/pc = RM0.00
+500's 0.00/pc = RM0.00
+1000's 0.00/pc = RM0.00
+
+Design RM58 (If you hire us)
+
+Deposit: 70% BEFORE proceeding
+
+Urgent: 9 working days (+) RM100
+*Only can applied at Standard Production TIMELINE only
+
+Quotation Valid 5 days
+
+"
+
+
+Then i will go back to first cycle to check cost from supplier for 500pcs, as you see at image provided it is from my supplier website (I just select dropdown button and select quantity 500, it it will change the price) 
+
+Quantity: 500 Pcs Cost Total: RM341.10 Cost Unit: RM0.68, and i will determine......Cycle go on and on for 1000pcs also and for Mass production timeline where i must go to another supplier website and all do by manually calculate.
+
+After everything, i will finish giving my customer pricing and it look like below (sometimes, i only give 1 timeline, or 2 timeline, or 2 quantity, 5 quantity it depend on what customer request. This is below for John wick request!)
+
+:-
+
+"Hi John, check below pricing and let me know if you need to order, thanks.
+
+::PRICING LIST::
+
+Pricing No.: BX2502001
+Dimension size: 50x30x110mm
+Die Type: Tuck End Lock
+Material: 300gsm Artcard
+Lamination: Matte film
+Print Color: 4C Full Color
+Print Side: 1 side outer
+Gluing: 1 part
+
+ONE TIME CHARGE: Block Die RM150
+*The Block Die charge is one-time only. For next orders, onlypay the printing cost as below:
+
+Mass Production TIMELINE / 33 Workdays
+300's 1.95/pc = RM594
+500's 1.51/pc = RM755
+1000's 1.22/pc = RM1220
+
+Standard Production TIMELINE / 23 Workdays
+300's 1.85/pc = RM555
+500's 1.39/pc = RM694
+1000's 0.97/pc = RM971
+
+Design RM58 (If you hire us)
+
+Deposit: 70% BEFORE proceeding
+
+Urgent: 9 working days (+) RM100
+*Only can applied at Standard Production TIMELINE only
+
+Quotation Valid 5 days"

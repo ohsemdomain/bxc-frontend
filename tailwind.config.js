@@ -1,9 +1,10 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
   content: [
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
     container: {
       center: true,
@@ -24,6 +25,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          50: "hsl(var(--primary-50))", // ADD THIS LINE
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",

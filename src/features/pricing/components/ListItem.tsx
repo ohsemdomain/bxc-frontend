@@ -18,7 +18,7 @@ export const PricingItem = ({
     <div
         onClick={() => onSelect(item)}
         className={`
-      p-3 rounded-lg border cursor-pointer transition-all duration-200 
+      p-3 rounded-md border cursor-pointer transition-all duration-200 
       hover:bg-primary/5
       ${isSelected ? 'border-primary/50 bg-primary/5' : 'border-line-1 bg-white'}      
     `}
