@@ -128,6 +128,7 @@ const PricingGeneratorForm = () => {
         <div className="container mx-auto px-4 py-8">
             <div className="flex fixed top-16 inset-x-0 bottom-0">
 
+                {/* LEFT PANEL (FORM) */}
                 <div className="w-full lg:w-[70%] h-full">
                     <Card className="p-2 sm:p-6 relative h-full border-none">
 
@@ -136,8 +137,9 @@ const PricingGeneratorForm = () => {
 
                                 <Card className="sticky top-0 z-40 p-4 rounded-md bg-white/70 backdrop-blur-sm">
                                     <div className="flex items-center justify-between">
-                                        <div className="flex items-center">
-                                            <h1 className="font-bold">Create Pricing</h1>
+                                        <div className="flex-col items-center">
+                                            <h1 className="font-bold">Pricing Form</h1>
+                                            <p className="text-destructive">Please double check all details before give the pricing to the customer.</p>
                                         </div>
                                         <div className="flex items-center gap-4">
                                             <Button className="w-full min-w-48">
@@ -398,6 +400,7 @@ const PricingGeneratorForm = () => {
                     </Card>
                 </div>
 
+                {/* RIGHT PANEL (LIVE PREVIEW) */}
                 <div className="hidden lg:block w-[30%] pr-6 py-6 h-full">
                     <Card className="relative h-full rounded-md bg-white/30 backdrop-blur-[1px]">
                     </Card>

@@ -8,7 +8,7 @@ import { TestPage } from "./features/misc-pages/Test"
 import { PricingList } from "./features/pricing/_PricingList"
 import PricingGeneratorForm from "./pricing-gen"
 import PricingGenerator from "./pricing-gen2"
-import SelectTest from "./SelectTest"
+import TimelineSection from "./SelectTest"
 
 export function App() {
   return (
@@ -31,7 +31,7 @@ export function App() {
         <Route element={<GuestLayout />}>
           <Route path="/landing-fbads" element={<FbAdsLanding />} />
           <Route path="/pricing-gen2" element={<PricingGenerator />} />
-          <Route path="/1" element={<SelectTest />} />
+          <Route path="/1" element={<TimelineSection />} />
         </Route>
       </Routes>
     </BrowserRouter>
